@@ -5,7 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.bd.multiverseexplorer.navigation.AppNavigation
-import com.bd.multiverseexplorer.ui.theme.MultiverseExplorerTheme
+import com.bd.multiverseexplorer.presentation.theme.MultiverseExplorerTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

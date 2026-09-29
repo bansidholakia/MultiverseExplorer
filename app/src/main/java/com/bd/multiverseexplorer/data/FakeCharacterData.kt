@@ -1,7 +1,7 @@
 package com.bd.multiverseexplorer.data
 
 import androidx.paging.PagingData
-import com.bd.multiverseexplorer.model.Character
+import com.bd.multiverseexplorer.domain.model.Character
 import kotlinx.coroutines.flow.MutableStateFlow
 
 

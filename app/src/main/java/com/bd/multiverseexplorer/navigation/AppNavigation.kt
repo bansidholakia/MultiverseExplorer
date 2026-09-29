@@ -7,10 +7,10 @@ import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
-import com.bd.multiverseexplorer.ui.character.detail.CharacterDetailsRoute
-import com.bd.multiverseexplorer.ui.character.detail.CharacterDetailsViewModel
-import com.bd.multiverseexplorer.ui.character.list.CharacterListRoute
-import com.bd.multiverseexplorer.ui.character.list.CharacterListViewModel
+import com.bd.multiverseexplorer.presentation.character.detail.CharacterDetailsRoute
+import com.bd.multiverseexplorer.presentation.character.detail.CharacterDetailsViewModel
+import com.bd.multiverseexplorer.presentation.character.list.CharacterListRoute
+import com.bd.multiverseexplorer.presentation.character.list.CharacterListViewModel
 
 @Composable
 fun AppNavigation(){

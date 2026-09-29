@@ -1,6 +1,6 @@
 package com.bd.multiverseexplorer.di
 
-import com.bd.multiverseexplorer.remote.api.RickMortyApi
+import com.bd.multiverseexplorer.data.remote.api.RickMortyApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

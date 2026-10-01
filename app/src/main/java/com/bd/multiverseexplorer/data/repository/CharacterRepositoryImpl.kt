@@ -19,7 +19,7 @@ import javax.inject.Inject
 class CharacterRepositoryImpl @Inject constructor(
     private val api: RickMortyApi
 ) : CharacterRepository {
-    override suspend fun getCharacters(
+    override fun getCharacters(
         searchQuery: String,
         status: CharacterStatus
     ): Flow<PagingData<Character>> {

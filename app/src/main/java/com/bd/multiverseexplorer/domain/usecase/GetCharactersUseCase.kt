@@ -11,7 +11,7 @@ class GetCharactersUseCase @Inject constructor(
     private val repository: CharacterRepository
 ) {
 
-    suspend operator fun invoke(
+     operator fun invoke(
         searchQuery: String,
         status: CharacterStatus
     ): Flow<PagingData<Character>> {

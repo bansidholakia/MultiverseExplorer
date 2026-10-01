@@ -7,7 +7,7 @@ import com.bd.multiverseexplorer.domain.model.CharacterStatus
 import kotlinx.coroutines.flow.Flow
 
 interface  CharacterRepository{
-    suspend fun getCharacters(
+     fun getCharacters(
         searchQuery: String,
         status: CharacterStatus
     ): Flow<PagingData<Character>>

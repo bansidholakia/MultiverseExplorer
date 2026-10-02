@@ -1,6 +1,6 @@
 package com.bd.multiverseexplorer.fake
 
-import com.bd.multiverseexplorer.domain.model.Character
+import com.bd.shared.domain.model.Character
 
 val testRick = Character(
     id = 1,

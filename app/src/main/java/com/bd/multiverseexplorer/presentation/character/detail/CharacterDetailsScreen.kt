@@ -28,7 +28,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
-import com.bd.multiverseexplorer.domain.model.Character
+import com.bd.shared.domain.model.Character
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

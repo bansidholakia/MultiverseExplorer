@@ -1,7 +1,7 @@
 package com.bd.multiverseexplorer.data.repository
 
-import com.bd.multiverseexplorer.domain.model.AppError
-import com.bd.multiverseexplorer.domain.model.AppResult
+import com.bd.shared.domain.model.AppError
+import com.bd.shared.domain.model.AppResult
 import com.bd.multiverseexplorer.fake.FakeRickMortyApi
 import com.bd.multiverseexplorer.fake.testCharacterDto
 import kotlinx.coroutines.test.runTest

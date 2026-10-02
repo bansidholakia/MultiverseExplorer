@@ -23,8 +23,8 @@ import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.bd.multiverseexplorer.data.fakeCharacterDataFlow
-import com.bd.multiverseexplorer.domain.model.Character
-import com.bd.multiverseexplorer.domain.model.CharacterStatus
+import com.bd.shared.domain.model.Character
+import com.bd.shared.domain.model.CharacterStatus
 import com.bd.multiverseexplorer.presentation.character.component.CharacterList
 import com.bd.multiverseexplorer.presentation.character.component.StatusFilter
 import com.bd.multiverseexplorer.presentation.character.component.SearchBar

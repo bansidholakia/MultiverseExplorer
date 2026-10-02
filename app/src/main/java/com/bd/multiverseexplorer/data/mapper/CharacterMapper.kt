@@ -1,6 +1,6 @@
 package com.bd.multiverseexplorer.data.mapper
 
-import com.bd.multiverseexplorer.domain.model.Character
+import com.bd.shared.domain.model.Character
 import com.bd.multiverseexplorer.data.remote.dto.CharacterDto
 
 fun CharacterDto.toCharacter(): Character{

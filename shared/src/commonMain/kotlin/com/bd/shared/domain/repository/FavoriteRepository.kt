@@ -1,6 +1,6 @@
-package com.bd.multiverseexplorer.domain.repository
+package com.bd.shared.domain.repository
 
-import com.bd.multiverseexplorer.domain.model.Character
+import com.bd.shared.domain.model.Character
 import kotlinx.coroutines.flow.Flow
 
 interface FavoriteRepository {

@@ -1,7 +1,8 @@
 package com.bd.multiverseexplorer.domain.usecase
 
-import com.bd.multiverseexplorer.domain.model.CharacterStatus
+import com.bd.shared.domain.model.CharacterStatus
 import com.bd.multiverseexplorer.fake.FakeCharacterRepository
+import com.bd.shared.domain.usecase.GetCharactersUseCase
 import junit.framework.TestCase.assertEquals
 import org.junit.Before
 import org.junit.Test

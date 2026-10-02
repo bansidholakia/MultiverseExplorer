@@ -1,6 +1,6 @@
 package com.bd.multiverseexplorer.presentation.common
 
-import com.bd.multiverseexplorer.domain.model.AppError
+import com.bd.shared.domain.model.AppError
 
 fun AppError.toMessage(): String {
     return when (this) {

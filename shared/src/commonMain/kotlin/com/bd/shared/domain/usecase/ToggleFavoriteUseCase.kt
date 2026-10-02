@@ -1,10 +1,9 @@
-package com.bd.multiverseexplorer.domain.usecase
+package com.bd.shared.domain.usecase
 
-import com.bd.multiverseexplorer.domain.repository.FavoriteRepository
-import jakarta.inject.Inject
-import com.bd.multiverseexplorer.domain.model.Character
+import com.bd.shared.domain.repository.FavoriteRepository
+import com.bd.shared.domain.model.Character
 
-class ToggleFavoriteUseCase @Inject constructor(
+class ToggleFavoriteUseCase(
     private val repository: FavoriteRepository
 ) {
 

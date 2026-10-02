@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
 import androidx.paging.compose.itemKey
-import com.bd.multiverseexplorer.domain.model.Character
+import com.bd.shared.domain.model.Character
 
 @Composable
 fun CharacterList(

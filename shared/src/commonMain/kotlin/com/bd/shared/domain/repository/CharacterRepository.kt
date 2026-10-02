@@ -1,9 +1,9 @@
-package com.bd.multiverseexplorer.domain.repository
+package com.bd.shared.domain.repository
 
 import androidx.paging.PagingData
-import com.bd.multiverseexplorer.domain.model.AppResult
-import com.bd.multiverseexplorer.domain.model.Character
-import com.bd.multiverseexplorer.domain.model.CharacterStatus
+import com.bd.shared.domain.model.AppResult
+import com.bd.shared.domain.model.Character
+import com.bd.shared.domain.model.CharacterStatus
 import kotlinx.coroutines.flow.Flow
 
 interface  CharacterRepository{

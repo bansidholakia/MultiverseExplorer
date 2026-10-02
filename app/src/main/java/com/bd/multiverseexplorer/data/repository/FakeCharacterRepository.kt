@@ -2,11 +2,11 @@ package com.bd.multiverseexplorer.data.repository
 
 import androidx.paging.PagingData
 import com.bd.multiverseexplorer.data.fakeCharacterData
-import com.bd.multiverseexplorer.domain.model.AppError
-import com.bd.multiverseexplorer.domain.model.AppResult
-import com.bd.multiverseexplorer.domain.model.Character
-import com.bd.multiverseexplorer.domain.model.CharacterStatus
-import com.bd.multiverseexplorer.domain.repository.CharacterRepository
+import com.bd.shared.domain.model.AppError
+import com.bd.shared.domain.model.AppResult
+import com.bd.shared.domain.model.Character
+import com.bd.shared.domain.model.CharacterStatus
+import com.bd.shared.domain.repository.CharacterRepository
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf

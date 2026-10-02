@@ -1,6 +1,6 @@
 package com.bd.multiverseexplorer.presentation.character.list
 
-import com.bd.multiverseexplorer.domain.model.CharacterStatus
+import com.bd.shared.domain.model.CharacterStatus
 
 data class CharacterListUiState(
     val searchQuery : String = "",

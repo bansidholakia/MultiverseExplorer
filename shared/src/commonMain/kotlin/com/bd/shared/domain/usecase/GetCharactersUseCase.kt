@@ -1,13 +1,12 @@
-package com.bd.multiverseexplorer.domain.usecase
+package com.bd.shared.domain.usecase
 
 import androidx.paging.PagingData
-import com.bd.multiverseexplorer.domain.model.CharacterStatus
-import com.bd.multiverseexplorer.domain.repository.CharacterRepository
-import jakarta.inject.Inject
+import com.bd.shared.domain.model.CharacterStatus
+import com.bd.shared.domain.repository.CharacterRepository
 import kotlinx.coroutines.flow.Flow
-import com.bd.multiverseexplorer.domain.model.Character
+import com.bd.shared.domain.model.Character
 
-class GetCharactersUseCase @Inject constructor(
+class GetCharactersUseCase(
     private val repository: CharacterRepository
 ) {
 

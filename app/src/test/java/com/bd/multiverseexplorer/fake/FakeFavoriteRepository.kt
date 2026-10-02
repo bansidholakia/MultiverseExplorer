@@ -1,9 +1,9 @@
 package com.bd.multiverseexplorer.fake
 
-import com.bd.multiverseexplorer.domain.repository.FavoriteRepository
+import com.bd.shared.domain.repository.FavoriteRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
-import com.bd.multiverseexplorer.domain.model.Character
+import com.bd.shared.domain.model.Character
 
 class FakeFavoriteRepository :
     FavoriteRepository {

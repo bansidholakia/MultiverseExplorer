@@ -1,10 +1,9 @@
-package com.bd.multiverseexplorer.domain.usecase
+package com.bd.shared.domain.usecase
 
-import com.bd.multiverseexplorer.domain.repository.FavoriteRepository
-import jakarta.inject.Inject
+import com.bd.shared.domain.repository.FavoriteRepository
 import kotlinx.coroutines.flow.Flow
 
-class ObserveIsFavoriteUseCase @Inject constructor(
+class ObserveIsFavoriteUseCase(
     private val repository: FavoriteRepository
 ) {
 

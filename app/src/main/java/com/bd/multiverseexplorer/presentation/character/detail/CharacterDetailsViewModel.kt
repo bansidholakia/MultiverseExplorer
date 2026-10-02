@@ -2,10 +2,10 @@ package com.bd.multiverseexplorer.presentation.character.detail
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.bd.multiverseexplorer.domain.model.AppResult
-import com.bd.multiverseexplorer.domain.usecase.GetCharacterUseCase
-import com.bd.multiverseexplorer.domain.usecase.ObserveIsFavoriteUseCase
-import com.bd.multiverseexplorer.domain.usecase.ToggleFavoriteUseCase
+import com.bd.shared.domain.model.AppResult
+import com.bd.shared.domain.usecase.GetCharacterUseCase
+import com.bd.shared.domain.usecase.ObserveIsFavoriteUseCase
+import com.bd.shared.domain.usecase.ToggleFavoriteUseCase
 import com.bd.multiverseexplorer.navigation.CharacterDetailsRoute
 import com.bd.multiverseexplorer.presentation.common.toMessage
 import dagger.assisted.Assisted

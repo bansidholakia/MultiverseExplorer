@@ -2,6 +2,7 @@ package com.bd.multiverseexplorer.domain.usecase
 
 import com.bd.multiverseexplorer.fake.FakeFavoriteRepository
 import com.bd.multiverseexplorer.fake.testRick
+import com.bd.shared.domain.usecase.ToggleFavoriteUseCase
 import junit.framework.TestCase.assertEquals
 import junit.framework.TestCase.assertNull
 import kotlinx.coroutines.test.runTest

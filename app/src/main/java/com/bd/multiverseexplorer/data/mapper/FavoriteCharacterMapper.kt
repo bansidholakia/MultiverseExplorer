@@ -1,7 +1,7 @@
 package com.bd.multiverseexplorer.data.mapper
 
 import com.bd.multiverseexplorer.data.local.entity.FavoriteCharacterEntity
-import com.bd.multiverseexplorer.domain.model.Character
+import com.bd.shared.domain.model.Character
 
 fun Character.toFavoriteEntity():
         FavoriteCharacterEntity {

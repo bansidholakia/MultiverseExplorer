@@ -1,4 +1,4 @@
-package com.bd.multiverseexplorer.domain.model
+package com.bd.shared.domain.model
 
 data class Character(
     val id: Int,

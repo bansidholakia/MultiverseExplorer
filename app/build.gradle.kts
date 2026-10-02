@@ -93,4 +93,7 @@ dependencies {
     //Junit & coroutines test
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.coroutines.test)
+
+    //shared lib
+    implementation(project(":shared"))
 }

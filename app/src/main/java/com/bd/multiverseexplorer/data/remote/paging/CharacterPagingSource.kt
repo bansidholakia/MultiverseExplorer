@@ -3,7 +3,7 @@ package com.bd.multiverseexplorer.data.remote.paging
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import coil3.network.HttpException
-import com.bd.multiverseexplorer.domain.model.Character
+import com.bd.shared.domain.model.Character
 import com.bd.multiverseexplorer.data.remote.api.RickMortyApi
 import com.bd.multiverseexplorer.data.mapper.toCharacter
 import okio.IOException

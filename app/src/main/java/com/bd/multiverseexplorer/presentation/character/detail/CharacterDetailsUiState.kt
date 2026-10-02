@@ -1,6 +1,6 @@
 package com.bd.multiverseexplorer.presentation.character.detail
 
-import com.bd.multiverseexplorer.domain.model.Character
+import com.bd.shared.domain.model.Character
 
 sealed interface CharacterDetailsUiState{
     data object Loading : CharacterDetailsUiState

@@ -4,9 +4,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.bd.multiverseexplorer.domain.model.Character
-import com.bd.multiverseexplorer.domain.model.CharacterStatus
-import com.bd.multiverseexplorer.domain.usecase.GetCharactersUseCase
+import com.bd.shared.domain.model.Character
+import com.bd.shared.domain.model.CharacterStatus
+import com.bd.shared.domain.usecase.GetCharactersUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview

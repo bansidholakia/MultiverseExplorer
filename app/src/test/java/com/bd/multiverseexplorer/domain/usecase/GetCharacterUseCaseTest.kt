@@ -1,9 +1,10 @@
 package com.bd.multiverseexplorer.domain.usecase
 
-import com.bd.multiverseexplorer.domain.model.AppError
-import com.bd.multiverseexplorer.domain.model.AppResult
+import com.bd.shared.domain.model.AppError
+import com.bd.shared.domain.model.AppResult
 import com.bd.multiverseexplorer.fake.FakeCharacterRepository
 import com.bd.multiverseexplorer.fake.testRick
+import com.bd.shared.domain.usecase.GetCharacterUseCase
 import junit.framework.TestCase.assertEquals
 import junit.framework.TestCase.assertTrue
 import kotlinx.coroutines.test.runTest

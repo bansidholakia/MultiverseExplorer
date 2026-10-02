@@ -6,8 +6,8 @@ import com.bd.multiverseexplorer.data.mapper.toFavoriteEntity
 import jakarta.inject.Inject
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
-import com.bd.multiverseexplorer.domain.model.Character
-import com.bd.multiverseexplorer.domain.repository.FavoriteRepository
+import com.bd.shared.domain.model.Character
+import com.bd.shared.domain.repository.FavoriteRepository
 
 class FavoriteRepositoryImpl @Inject constructor(
     private val dao: FavoriteCharacterDao

@@ -1,10 +1,10 @@
 package com.bd.multiverseexplorer.presentation
 
-import com.bd.multiverseexplorer.domain.model.AppError
-import com.bd.multiverseexplorer.domain.model.AppResult
-import com.bd.multiverseexplorer.domain.usecase.GetCharacterUseCase
-import com.bd.multiverseexplorer.domain.usecase.ObserveIsFavoriteUseCase
-import com.bd.multiverseexplorer.domain.usecase.ToggleFavoriteUseCase
+import com.bd.shared.domain.model.AppError
+import com.bd.shared.domain.model.AppResult
+import com.bd.shared.domain.usecase.GetCharacterUseCase
+import com.bd.shared.domain.usecase.ObserveIsFavoriteUseCase
+import com.bd.shared.domain.usecase.ToggleFavoriteUseCase
 import com.bd.multiverseexplorer.fake.FakeCharacterRepository
 import com.bd.multiverseexplorer.fake.FakeFavoriteRepository
 import com.bd.multiverseexplorer.fake.testRick

@@ -4,6 +4,7 @@ import com.bd.shared.domain.model.AppError
 import com.bd.shared.domain.model.AppResult
 import com.bd.multiverseexplorer.fake.FakeRickMortyApi
 import com.bd.multiverseexplorer.fake.testCharacterDto
+import com.bd.shared.data.repository.CharacterRepositoryImpl
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue

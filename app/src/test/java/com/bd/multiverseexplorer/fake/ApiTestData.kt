@@ -1,7 +1,7 @@
 package com.bd.multiverseexplorer.fake
 
-import com.bd.multiverseexplorer.data.remote.dto.CharacterDto
-import com.bd.multiverseexplorer.data.remote.dto.LocationReferenceDto
+import com.bd.shared.data.remote.dto.CharacterDto
+import com.bd.shared.data.remote.dto.LocationReferenceDto
 
 val testCharacterDto = CharacterDto(
     id = 1,

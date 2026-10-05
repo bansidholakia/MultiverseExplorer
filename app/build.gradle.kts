@@ -51,6 +51,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.paging.common)
     implementation(libs.androidx.ui)
+    implementation(libs.firebase.crashlytics.buildtools)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -71,9 +72,6 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.androidx.lifecycle.viewmodel.navigation3)
 
-    //retrofit & kotlinx
-    implementation(libs.retrofit.core)
-    implementation(libs.retrofit.kotlinx.serialization)
     implementation(libs.kotlinx.serialization.json)
 
     //hilt

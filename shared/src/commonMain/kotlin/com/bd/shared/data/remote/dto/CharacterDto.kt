@@ -1,9 +1,9 @@
-package com.bd.multiverseexplorer.data.remote.dto
+package com.bd.shared.data.remote.dto
 
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class CharacterDto(
+internal data class CharacterDto(
     val id: Int,
 
     val name: String,

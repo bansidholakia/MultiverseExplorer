@@ -1,6 +1,7 @@
 package com.bd.multiverseexplorer.data.mapper
 
 import com.bd.multiverseexplorer.fake.testCharacterDto
+import com.bd.shared.data.mapper.toCharacter
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

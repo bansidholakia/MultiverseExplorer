@@ -1,6 +1,8 @@
 package com.bd.multiverseexplorer.data.mapper
 
 import com.bd.multiverseexplorer.fake.testRick
+import com.bd.shared.data.mapper.toCharacter
+import com.bd.shared.data.mapper.toFavoriteEntity
 import junit.framework.TestCase.assertEquals
 import org.junit.Test
 

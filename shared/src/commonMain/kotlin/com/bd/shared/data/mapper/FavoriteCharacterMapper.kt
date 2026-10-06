@@ -1,9 +1,10 @@
-package com.bd.multiverseexplorer.data.mapper
+package com.bd.shared.data.mapper
 
-import com.bd.multiverseexplorer.data.local.entity.FavoriteCharacterEntity
+import com.bd.shared.data.local.entity.FavoriteCharacterEntity
 import com.bd.shared.domain.model.Character
 
-fun Character.toFavoriteEntity():
+internal fun Character
+        .toFavoriteEntity():
         FavoriteCharacterEntity {
 
     return FavoriteCharacterEntity(
@@ -19,7 +20,8 @@ fun Character.toFavoriteEntity():
     )
 }
 
-fun FavoriteCharacterEntity.toCharacter():
+internal fun FavoriteCharacterEntity
+        .toCharacter():
         Character {
 
     return Character(

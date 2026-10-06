@@ -1,9 +1,9 @@
-package com.bd.multiverseexplorer.data.local.dao
+package com.bd.shared.data.local.dao
 
 import androidx.room3.Dao
 import androidx.room3.Query
 import androidx.room3.Upsert
-import com.bd.multiverseexplorer.data.local.entity.FavoriteCharacterEntity
+import com.bd.shared.data.local.entity.FavoriteCharacterEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

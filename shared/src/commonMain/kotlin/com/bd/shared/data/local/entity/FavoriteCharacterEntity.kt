@@ -1,4 +1,4 @@
-package com.bd.multiverseexplorer.data.local.entity
+package com.bd.shared.data.local.entity
 
 import androidx.room3.Entity
 import androidx.room3.PrimaryKey

@@ -36,17 +36,21 @@ kotlin {
     // A step-by-step guide on how to include this library in an XCode
     // project can be found here:
     // https://developer.android.com/kotlin/multiplatform/migrate
-    val xcfName = "sharedKit"
+    listOf(
+        iosArm64(),
+        iosSimulatorArm64()
+    ).forEach { iosTarget ->
 
-    iosArm64 {
-        binaries.framework {
-            baseName = xcfName
-        }
-    }
+        iosTarget.binaries.framework {
 
-    iosSimulatorArm64 {
-        binaries.framework {
-            baseName = xcfName
+            baseName = "Shared"
+
+            isStatic = true
+
+            binaryOption(
+                "bundleId",
+                "com.bd.shared"
+            )
         }
     }
 

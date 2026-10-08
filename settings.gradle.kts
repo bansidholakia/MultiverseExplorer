@@ -25,3 +25,5 @@ dependencyResolutionManagement {
 rootProject.name = "MultiverseExplorer"
 include(":app")
 include(":shared")
+include(":sharedUI")
+include(":sharedUI")
